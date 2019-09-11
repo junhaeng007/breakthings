@@ -1,9 +1,5 @@
-<style>
-  #Rcolor{ color:red;}
-  #Gcolor{ color:green;} #YGcolor { color:yellowgreen; }
-  #Bcolor{ color:blue;}
-</style>
 #### 변경
+
 1. **20190904_2에 있었던 문제점 수정**
     - <class id="Bcolor">OnTriggerStay2D()</class> 함수 자체에 문제가 있다.
         - <class id="Bcolor">Update()</class>처럼 매 프레임마다 호출되는 함수다 → **성능 저하에 큰 요인이 된다.**
