@@ -9,3 +9,9 @@
 
 2. **플레이어 UI 변경**
     - 가드게이지 위치 변경 : 스킬버튼 아래 → 마나게이지 아래
+    
+<style>
+  #Rcolor{ color:red;}
+  #Gcolor{ color:green;} #YGcolor { color:yellowgreen; }
+  #Bcolor{ color:blue;}
+</style>
