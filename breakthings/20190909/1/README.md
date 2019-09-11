@@ -3,7 +3,6 @@
   #Gcolor{ color:green;} #YGcolor { color:yellowgreen; }
   #Bcolor{ color:blue;}
 </style>
-
 #### 변경
 1. **20190904_2에 있었던 문제점 수정**
     - <class id="Bcolor">OnTriggerStay2D()</class> 함수 자체에 문제가 있다.
