@@ -1,3 +1,9 @@
+<style>
+  #Rcolor{ color:red;}
+  #Gcolor{ color:green;} #YGcolor { color:yellowgreen; }
+  #Bcolor{ color:blue;}
+</style></br>
+
 #### 변경
 
 1. **20190904_2에 있었던 문제점 수정**
@@ -9,9 +15,3 @@
 
 2. **플레이어 UI 변경**
     - 가드게이지 위치 변경 : 스킬버튼 아래 → 마나게이지 아래
-    
-<style>
-  #Rcolor{ color:red;}
-  #Gcolor{ color:green;} #YGcolor { color:yellowgreen; }
-  #Bcolor{ color:blue;}
-</style>
