@@ -12,4 +12,4 @@
 
 ### 추가
 1. **플레이어 UI 추가**
-      - 스킬 버튼 틀 추가 ![skillFrame](./20190914/skillFrame.png)
+      - 스킬 버튼 틀 추가 ![skillFrame](https://junhaeng007.github.io/unity-practice/breakthings/20190914/skillFrame.png)
