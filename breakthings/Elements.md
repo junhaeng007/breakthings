@@ -15,7 +15,7 @@
   </style>
 </head>
 
-# BreakThings의  요소
+# BreakThings(가칭)의  요소
 ※취소선은 미구현
 
 ## 플레이어

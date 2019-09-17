@@ -77,7 +77,7 @@
 - Rush Action
     - Wild Hunt(Rush Punch - Kick - SlegeHammer)
 
-- Range Action
+- Blast Action
     - Galick Gun
     - ~~BigBang Attack~~
     - ~~Continuous Energy Bullet~~
