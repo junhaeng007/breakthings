@@ -1,12 +1,10 @@
-<head>
-  <style type="text/css">
+<head><style type="text/css">
     table
     {
       margin: auto;
       text-align: center;
     }
-  </style>
-</head>
+</style></head>
 
 # BreakThings의  요소
 ※취소선은 미구현
