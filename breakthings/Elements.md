@@ -53,11 +53,11 @@
     </tr>
     <tr>
       <th>E</th>
-      <td colspan="2", class="kaioken">계왕권</td>
+      <td class="kaioken">계왕권</td><td>-</td>
     </tr>
     <tr>
       <th>R</th>
-      <td colspan="2"><del>원기옥</del></td>
+      <td><del>원기옥</del></td><td>-</td>
     </tr>
   </table>
 

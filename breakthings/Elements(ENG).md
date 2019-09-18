@@ -53,11 +53,11 @@
     </tr>
     <tr>
       <th>E</th>
-      <td colspan="2", class="kaioken">Kaioken</td>
+      <td class="kaioken">Kaioken</td><td>-</td>
     </tr>
     <tr>
       <th>R</th>
-      <td colspan="2"><del>genkidama</del></td>
+      <td><del>Genkidama</del></td><td>-</td>
     </tr>
   </table>
 
