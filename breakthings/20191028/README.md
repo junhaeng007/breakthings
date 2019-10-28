@@ -59,7 +59,7 @@
 1. **Be Canceled Genkidama by Boss' Attack**
     - If Genkidama explodes after be canceled, Genkidama sphere is still alive until inactivate Genkidama Object
 
-### A Belate Reasons(excuses)
+### Belate Reasons(excuses)
 
 1. I learned **Particle System** for exploding Genkidama because it is first time
 
