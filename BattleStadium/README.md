@@ -10,7 +10,7 @@
 ### Development Log
 
 #### 2019
-- 11/13
+- 11/13 [프로젝트](https://drive.google.com/open?id=1FDAZBs6HZQvKmWxo-7T5WA0tRN31Boub)
   - 기본적인 플레이어 컨트롤은 거의 완성되었다
   - 이동, 점프, 매달리기, 매달리기-점프, 매달리기-내려오기, 웅크리기
   - ! 유니티 툴에서 적은 String 데이터가 변수에 들어가기 전(String characterName)에 Awake가 먼저 실행된다.
