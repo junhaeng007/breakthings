@@ -53,6 +53,5 @@ S+S|Combo Punch|
 - 11/20 [프로젝트](https://drive.google.com/open?id=1mL0Dl_4AVkhR_aVmOBeBrS5_IcrNF1Wo)
   - 손오공의 <b>A공격을 개편</b>하고 <b>S공격</b>까지 완성했다
   - <b>공중 공격</b>과 점프 이후의 낙하가 아닌 <b>그냥 낙하시</b> 낙하모션을 따로 제작했다
-  - 스크립트와 애니메이터의 대공사가 필요할 것 같다
-    1. FixedUpdate()에서 너무나 많은 **if문이 실행되고 있다**
-    2. **AnyState의 남용은 금물이라는 것을 깨달았다.** Attack -> Fall로 자연스럽게 가지 못하고 아주 살짝 Posture_Ready가 끼어드니 자연스럽지 못한다
+  - 애니메이터의 대공사가 필요할 것 같다
+  **AnyState의 남용은 금물이라는 것을 깨달았다.** Attack -> Fall로 자연스럽게 가지 못하고 아주 살짝 Posture_Ready가 끼어드니 자연스럽지 못한다
