@@ -12,30 +12,36 @@
 
 ||Goku|Vegeta
 :--:|:--:|:--:
-A|Hook|  
-A+A|   |  
+A|Combo Punch|   
 ↑+A|Somersalut Kick
 ↓+A|  
-␣+A|Somersalut Kick  
-␣ +↑+A|  
-␣ +↓+A|SledgeHammer
+␣+A|SledgeHammer
+␣ +↑+A|Somersalut Kick
+␣ +↓+A|
 
 ||Goku|Vegeta
 :--:|:--:|:--:
 S|Straight|  
-S+S|Combo Punch|
 ↑+S|[D]Somersalut Kick|   |
 ↓+S|[P]RoundHouse Kick|   |   |
-␣+S|[D]Somersalut Kick|   |   |
-␣+↑+S|   |   |   |
-␣+↓+S|RoundHouse Kick|   |   |
+␣+S|RoundHouse Kick|   |   |
+␣+↑+S|[D]Somersalut Kick|   |   |
+␣+↓+S||   |   |
+
+||Goku|Vegeta
+:--:|:--:|:--:
+D|   |  
+↑+D|   |  
+↓+D|SpiritShot|
+␣+D|   |
+␣+↑+D|   |
+␣+↓+D|   |   |
 ### Development Log
 
 #### 2019
 - 11/13 [프로젝트](https://drive.google.com/open?id=1mNYOsG-oiTiDN1jlWLgxqvSDHREb4fCW)
   - 기본적인 플레이어 컨트롤은 거의 완성되었다
   - 이동, 점프, 매달리기, 매달리기-점프, 매달리기-내려오기, 웅크리기
-  - ! 유니티 툴에서 적은 String 데이터가 변수에 들어가기 전(String characterName)에 Awake가 먼저 실행된다.
   - **<font color="red">ISSUE</font>**
       - **제자리** 점프 → 매달기 → 점프(놓기) → 주어진 힘만큼 스핀(내려가기)
       - **앞으로** 점프 → 매달기 → 점프(놓기) → **비정상적으로 큰 힘만큼** 스핀(내려가기)
@@ -54,5 +60,12 @@ S+S|Combo Punch|
   - 손오공의 <b>A공격을 개편</b>하고 <b>S공격</b>까지 완성했다
   - <b>공중 공격</b>과 점프 이후의 낙하가 아닌 <b>그냥 낙하시</b> 낙하모션을 따로 제작했다
   - 애니메이터의 대공사가 필요할 것 같다
-    - **AnyState의 남용은 금물이라는 것을 깨달았다.** 
+    - **AnyState의 남용은 금물이라는 것을 깨달았다.**
     - Attack -> Fall로 자연스럽게 가지 못하고 아주 살짝 Posture_Ready가 끼어드니 자연스럽지 못한다
+
+- 11/25 [프로젝트](https://drive.google.com/open?id=1C88GkHucs_BuSMGOntn5v5X69-273GNP)
+  - 애니메이터 대공사 완료. 이제 스테이트 간의 이동이 확실히 깔끔해졌고 공사하면서 덕분에 불필요한
+  스크립트 코드도 많이 삭제할 수 있었다
+  - 매달리기 관련 이슈가 많이 안정화되었다. 의미없는 Ground트리거 오브젝트를 제거했다
+  - 바닥은 Tag를 Ground, Ground_Egde, Wall 3가지로 분류해서 느닷없이 Move로 가는 일 없이 바닥을 세분화했지만 이 때문에 원인 모를 끼임 현상이 생겼다.
+  일단 크기를 조절해서 ~~야매로~~대강 해결은 했지만 잠재이슈가 남아있다.
