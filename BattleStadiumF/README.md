@@ -72,7 +72,7 @@ D|   |
 
 - 12/11 [프로젝트](https://drive.google.com/open?id=1EqdlcFeoy5EsV8Fg0o1q-6nu2mM5hpO2)
   - **유니티 Photon** 멀티플레이 환경을 구축함
-  - 쾌적환 동기화 환경을 구축하기 위해 모든 캐릭터(미래의 오브젝트까지)의 이동방식을 **Transform Translate → Rigidbody2D velocity와 Addforce로 변경**
+  - 쾌적한 동기화 환경을 구축하기 위해 모든 캐릭터(미래의 오브젝트까지)의 이동방식을 **Transform Translate → Rigidbody2D velocity와 Addforce로 변경**
   - 따라서 좌표 동기화는 렉없이 잘 되는데 문제는...
   - **<font color="red">ISSUE</font>**
     - **애니메이터 동기화가 잘 되지 않는다.**
