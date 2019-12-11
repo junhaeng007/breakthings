@@ -70,7 +70,7 @@ D|   |
   - 바닥은 Tag를 Ground, Ground_Egde, Wall 3가지로 분류해서 느닷없이 Move로 가는 일 없이 바닥을 세분화했지만 이 때문에 원인 모를 끼임 현상이 생겼다.
   일단 크기를 조절해서 ~~야매로~~대강 해결은 했지만 잠재이슈가 남아있다.
 
-- 12/11 [프로젝트](https://drive.google.com/open?id=1EqdlcFeoy5EsV8Fg0o1q-6nu2mM5hpO2)
+- 12/11 [프로젝트](https://drive.google.com/open?id=1EqdlcFeoy5EsV8Fg0o1q-6nu2mM5hpO2)Ver.2019.3.0f1
   - **유니티 Photon** 멀티플레이 환경을 구축함
   - 쾌적한 동기화 환경을 구축하기 위해 모든 캐릭터(미래의 오브젝트까지)의 이동방식을 **Transform Translate → Rigidbody2D velocity와 Addforce로 변경**
   - 따라서 좌표 동기화는 렉없이 잘 되는데 문제는...
